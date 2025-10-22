@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration Form</title>
+        <body>
+            <h2 align="center">Student Registration Form</h2>
+            <form>
+                <label for="fullname">Full Name:</label><br>
+                <input type="text"id="fullname"name="fullname"placeholder="Enter your Full Name"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email"id="email"name="email"placeholder="Enter valid email address"><br><br>
+                <label for="password">Password:</label>
+                <input type="password"id="password"name="password"placeholder="Enter password"><br><br>
+                <label>Gender:</label>
+                <input type="radio"id="male"name="gender"value="male">
+                <label for="male">Male</label>
+                <input type="radio"id="female"name="gender"value="female">
+                <label for="female">Female</label>
+                <input type="radio"id="other"name="gender"value="other">
+                <label for="other">Other</label><br><br>
+                <label for="course">Course:</label>
+                <select id="course"name="course">
+                    <option value=""disabled selected>-Select Course-</option>
+                    <option value="course1">Course 1</option>
+                    <option value="course2">Course 2</option>
+                    <option value="course3">Course 3</option>
+                </select><br><br>
+                <label for="contactno">Contact No:</label><br>
+                <input type="text"id="contactno"name="contactno"placeholder="Enter phone number"><br><br>
+                <label for="address">Address:</label><br>
+                <textarea id="address"name="address"rows="4"cols="50"placeholder="Enter your address"></textarea><br><br>
+                <input type="submit"value="Register">
+                <input type="reset"value="Clear">
+            </form>
+        </body>
+    </head>
+</html>
