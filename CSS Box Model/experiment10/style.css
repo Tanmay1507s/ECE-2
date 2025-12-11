@@ -3,8 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-/* Navbar Styling */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -40,11 +38,9 @@
   text-decoration: none;
   font-weight: bold;
 }
-
-/* Responsive Design */
 @media (max-width: 768px) {
   .nav-links {
-    display: none; /* Hide menu on smaller screens */
+    display: none; 
   }
   .actions {
     font-size: 0.9rem;
